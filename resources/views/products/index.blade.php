@@ -7,6 +7,7 @@
             <div class="table-responsive table--no-card m-b-30">
                 <table class="table table-borderless table-striped table-earning">
                     <thead>
+                    <a href="/download" class="btn btn-xs btn-info pull-right" style="margin-bottom: 20px">DOWNLOAD</a>
                     <tr>
                         <th>Ürün Fotoğrafı</th>
                         <th>Ürün Adı</th>

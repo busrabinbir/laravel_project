@@ -26,7 +26,7 @@ Route::get('/product-add', 'ProductController@productCreateView')->name('product
 Route::post('/product-create', 'ProductController@productCreate')->name('product.create');
 Route::get('/product-list', 'ProductController@indexView')->name('product.list');
 
-Route::get('/download', 'ExcelDownloadController@userDownload');
+Route::get('/download', 'ExcelDownloadController@productDownload');
 
 Auth::routes();
 

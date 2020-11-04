@@ -11,6 +11,10 @@ use Illuminate\Support\Facades\Hash;
 
 class HomeController extends Controller
 {
+    public function getUsers(){
+        return User::all();
+    }
+
     public function indexView() {
         /*$users = DB::table('users')->where('deleted_at', '=', null)->get();
 

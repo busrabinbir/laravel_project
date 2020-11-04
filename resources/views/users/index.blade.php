@@ -4,7 +4,6 @@
 
     <div class="row" style="margin-left: 20px">
         <div class="col-lg-9">
-            <a href="/download" class="btn btn-xs btn-info pull-right" style="margin-bottom: 20px">DOWNLOAD</a>
             <div class="table-responsive table--no-card m-b-30">
                 <table class="table table-borderless table-striped table-earning">
                     <thead>

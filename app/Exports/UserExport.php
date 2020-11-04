@@ -3,7 +3,6 @@
 namespace App\Exports;
 
 use App\User;
-use Illuminate\Support\Facades\DB;
 use Maatwebsite\Excel\Concerns\FromCollection;
 
 class UserExport implements FromCollection
@@ -13,10 +12,7 @@ class UserExport implements FromCollection
     */
     public function collection()
     {
-        $user = DB::table('users')
-            ->join('products','products.created_by','=','users.id')
-            ->select('users.name','products.name','products.price')
-            ->where('is_approve','=',1)->get();
+        $user = User::all();
         return $user;
     }
 }
